@@ -9,6 +9,8 @@ class PageAdmin(SummernoteModelAdmin):
     list_display = ('title', 'author', 'added_on')
     search_fields = ['title', 'content']
     list_filter = ('status', 'added_on')
+    prepopulated_fields = {'slug': ('title',)}
+    summernote_fields = ('content',)
 
 
 @admin.register(Comment)
