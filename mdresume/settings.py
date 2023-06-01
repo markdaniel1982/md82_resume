@@ -31,14 +31,9 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = [
-    '8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io/admin/login',
-    'https://8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io',
-    '8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io',
-    'localhost',
-    '*'
-    ]
+ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS=['https://8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io/']
 
 # Application definition
 
@@ -56,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -71,6 +66,7 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'django.template.context_processors.csrf',                
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',

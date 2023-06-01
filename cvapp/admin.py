@@ -3,7 +3,7 @@ from .models import Page, Comment
 
 
 @admin.register(Page)
-class PostAdmin(admin.ModelAdmin):
+class PageAdmin(admin.ModelAdmin):
 
     list_display = ('title', 'author', 'added_on')
     search_fields = ['title', 'content']
