@@ -31,7 +31,13 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io/admin/login',
+    'https://8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io',
+    '8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io',
+    'localhost',
+    '*'
+    ]
 
 
 # Application definition

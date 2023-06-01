@@ -8,7 +8,6 @@ class PostAdmin(admin.ModelAdmin):
     list_display = ('title', 'author', 'added_on')
     search_fields = ['title', 'content']
     list_filter = ('status', 'added_on')
-    summernote_fields = ('content',)
 
 
 @admin.register(Comment)
