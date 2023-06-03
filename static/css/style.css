@@ -1,5 +1,5 @@
 body {
-    background-color: #F9FAFC;
+    background-color: #d3d3d3;
 }
 
 .brand {
@@ -9,8 +9,77 @@ body {
     color: #4A4A4F;
 }
 
-.red-o {
-    color: #E84610;
+.logotext {
+    font-size: 50px;
+    color: #6c757d;
+    font-family: monospace;
+}
+
+.navbar {
+    height: fit-content;
+    text-decoration: none;
+}
+
+a, link, i {
+    color: #4A4A4F;!important
+}
+
+.nav-link {
+    position: relative;
+    top: 20px;
+    color: #4A4A4F;!important
+}
+
+.hero-image {
+    background-image: url(../media/hero_code2.webp);
+    background-position: center;
+    background-size: cover;
+    min-width: 100vw;
+    height: 33%;
+}
+
+.link {
+    text-decoration: none;
+    text-decoration-color: #6c757d;
+}
+
+#navbar-text-left {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: absolute;
+    right: 170px;
+    top: 40px;
+    font-family: monospace;
+    font-size: 35px;
+    font-variant-caps: all-small-caps;
+    font-weight: 900;
+    color: #6c757d;
+}
+
+.hero-flash-container {
+    width: 230px;!important
+    height: 180px;
+    position: relative;
+    text-wrap: wrap;
+    left: 1150px;
+    top: 20px;
+    background-color: #ff9600;
+    border-radius: 15px;
+}
+
+.hero-flash {
+    font-family: monospace;
+    font-size: 46px;
+    font-variant-caps: all-small-caps;
+    font-weight: 900;
+    line-height: normal;
+    padding: 10px;
+}
+
+.admin-panel {
+    position: relative;
+    top: 0px;
+    padding-left: 10px;
 }
 
 .thin {
@@ -117,26 +186,7 @@ body {
     color: #23BBBB;
 }
 
-.link {
-    color: #23BBBB;
-    text-decoration: none;
-}
-
-.link:hover,
-.link:active {
-    color: #445261;
-    text-decoration: underline;
-}
-
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
-
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
+@media (min-width: 1400px)
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1670px;
 }
