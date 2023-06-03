@@ -25,13 +25,13 @@ body {
 }
 
 a, link, i {
-    color: #4A4A4F;!important
+    color: #4A4A4F!important;
 }
 
 .nav-link {
     position: relative;
     top: 20px;
-    color: #4A4A4F;!important
+    color: #4A4A4F!important;
 }
 
 .home-link {
@@ -65,14 +65,15 @@ a, link, i {
 }
 
 .hero-flash-container {
-    width: 230px;!important
-    height: 180px;
+    width: 30vw!important;
+    height: 130px;
     position: relative;
-    text-wrap: wrap;
-    left: 1150px;
-    top: 20px;
+    text-align: center;
+    left: 950px;
+    top: 60px;
     background-color: #ff9600;
-    border-radius: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .hero-flash {
@@ -201,7 +202,8 @@ footer {
     color: #6c757d;
 }
 
-@media (min-width: 1400px)
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1670px;
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1670px;
+    }
 }
