@@ -20,6 +20,10 @@ body {
     text-decoration: none;
 }
 
+.username {
+    padding-left: 10px;
+}
+
 a, link, i {
     color: #4A4A4F;!important
 }

@@ -61,7 +61,7 @@
                 <div class="profile-item">
                     <!-- Authorisation to only show logout link when user is logged in -->
                     {% if user.is_authenticated %}
-                    <div class="profile-link active"><strong>{{ user }} </strong>
+                    <div class="profile-link active username"><strong> {{ user }} </strong>
                         <a id="profile-link-logout"class="text-dark" href="#">
                         (<small>Logout</small>)
                         </a>
