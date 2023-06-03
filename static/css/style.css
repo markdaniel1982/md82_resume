@@ -30,6 +30,10 @@ a, link, i {
     color: #4A4A4F;!important
 }
 
+.home-link {
+    color: #d3d3d3;
+}
+
 .hero-image {
     background-image: url(../media/hero_code2.webp);
     background-position: center;
@@ -76,10 +80,13 @@ a, link, i {
     padding: 10px;
 }
 
-.admin-panel {
+.profile-panel {
     position: relative;
     top: 0px;
-    padding-left: 10px;
+}
+
+.flex-row {
+    display: flex;
 }
 
 .thin {
@@ -184,6 +191,10 @@ a, link, i {
 .btn-signup:active {
     background-color: #fff;
     color: #23BBBB;
+}
+
+footer {
+    color: #6c757d;
 }
 
 @media (min-width: 1400px)
