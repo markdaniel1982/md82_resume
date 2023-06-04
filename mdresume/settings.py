@@ -34,7 +34,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS=['https://8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io/']
+CSRF_TRUSTED_ORIGINS=['https://8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io/', 'https://md82resume.herokuapp.com/']
 
 # Application definition
 
