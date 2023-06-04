@@ -28,10 +28,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 X_CONTENT_TYPE_OPTIONS = 'NOSNIFF'
+X_TWICPICS_TOKEN = os.environ.get('X_TWICPICS_TOKEN')
 
 ALLOWED_HOSTS = ['*']
 
