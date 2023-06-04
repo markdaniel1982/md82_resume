@@ -31,10 +31,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
+X_CONTENT_TYPE_OPTIONS = 'NOSNIFF'
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS=['https://8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io/', 'https://md82resume.herokuapp.com/']
+CSRF_TRUSTED_ORIGINS = ['https://8000-markdaniel19-md82resume-v05zwjbyacy.ws-eu98.gitpod.io/', 'https://md82resume.herokuapp.com/']
 
 # Application definition
 
